@@ -1,1 +1,3 @@
-
+I was exploring how my previous repository CNN model architecture will work on a dataset a bit more generalied.
+In this i have used the publically avaiable dataset on kaggle , merge 3 different types of plants leaf images (Rice , Cotton , Tomato).
+Earlier , i have only used the publically avaibale dataset of Tomato leaf diseases images , now combining it with the other plants as well , i'll have a more generalised view for my CNNmodel.
