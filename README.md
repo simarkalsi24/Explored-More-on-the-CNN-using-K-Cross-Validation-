@@ -1,27 +1,11 @@
 # 🌿 Crop Leaf Disease Classification with CNN and Cross-Validation
 
-This repository contains experiments on **Convolutional Neural Networks (CNNs)** for crop leaf disease classification.  
+This repository contains experiments on **Convolutional Neural Networks (CNNs)** for crop leaf disease classification. 
+Explarong more on my CNN model , i have used the K-Cross validation methods , i.e the 5-fold and 10-fold. Apart from my previous research in which in bahve used the usually train,test and spilt method , but running on the K-Fold Cross Validation method had provided a good study of the dataset preprocessing and also for the CNN model.
+
 The focus is on evaluating the effect of **cross-validation strategies (5-fold, 10-fold)** and analyzing model performance.  
 
 I have also apply **systematic preprocessing** and build a **custom combined dataset** from multiple public sources (Kaggle/PlantVillage).
-
-## 📂 Repository Structure
-
-📂 CropDisease-CNN-Optimization
- ┣ 📂 notebooks
- ┃ ┣ 5-fold.ipynb
- ┃ ┣ 5-fold-validation.ipynb
- ┃ ┣ 10-fold-validation.ipynb
- ┃ ┣ analysis.ipynb
- ┣ 📂 dataset
- ┃ ┣ combined_crop_disease_labels.csv   # Master CSV
- ┃ ┗ README.md                          # Dataset explanation
- ┣ 📂 results
- ┃ ┣ accuracy_curves.png
- ┃ ┣ confusion_matrix.png
- ┣ requirements.txt
- ┣ README.md
-
 
 ## 🗂️ Dataset Construction
 
