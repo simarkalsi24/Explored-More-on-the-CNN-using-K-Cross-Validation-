@@ -100,23 +100,3 @@ Before training CNN models, the following preprocessing was applied:
 - **analysis.ipynb**  
   Plots training curves, confusion matrices, and final evaluation metrics.  
 
----
-
-## 📊 Results (Example)
-
-- Average Accuracy (5-Fold): ~97–98%  
-- ROC-AUC per class shows strong separation between healthy & diseased leaves  
-- Confusion matrix reveals minor misclassifications between visually similar diseases  
-
-![Accuracy](results/accuracy_curves.png)  
-![Confusion](results/confusion_matrix.png)  
-
----
-
-## ⚙️ Installation & Usage
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/yourusername/CropDisease-CNN-Optimization.git
-   cd CropDisease-CNN-Optimization
-
